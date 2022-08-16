@@ -6,5 +6,5 @@ there are 2 files in here,
 unfortunatly i had a problem that cmd couldnt interpret the signs ( ) as part of the argumant, 
 in my understanding because they are special characters in the shell language that cmd uses
 
-for that reason i changed the commands format to be: prolog "<argumant>(<param>)" "<argumant>(<param>)"...
+for that reason i changed the commands format to be: prolog "argumant(param)" "argumant(param)"...
 example: prolog "write_to(newfile.prolog)" "from_file(log.txt)" "byLevel(WARN)"
